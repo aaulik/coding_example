@@ -50,7 +50,6 @@ public class MainPage {
         String actualSearchTerm = webDriver.findElement(By.cssSelector(".lighter")).getText();
         String expectedSearchTerm = "\"" + articleName.toUpperCase() + "\"";
         assertThat(actualSearchTerm).isEqualTo(expectedSearchTerm);
-
     }
 
     /**

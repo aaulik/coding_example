@@ -1,3 +1,9 @@
+steps\LoginSteps.class
+steps\CheckoutSteps.class
 RunCucumberTest.class
 pages\LoginPage.class
-steps\DemoSteps.class
+pages\CheckoutPage.class
+steps\WebDriverUtil.class
+steps\Hooks.class
+steps\MainSteps.class
+pages\MainPage.class

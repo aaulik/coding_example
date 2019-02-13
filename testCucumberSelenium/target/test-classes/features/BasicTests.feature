@@ -10,7 +10,7 @@ Feature: Basic_test_set
   Scenario: User_registration_and_sign_in_should_work
     When I open the Main page
     And I go to the Login page
-    And I input email address "testnew@testmailz.com" and click on Create account
+    And I input email address "testnew1@testmailz.com" and click on Create account
     And I register the user with test data and "test123" password
     And I click on Sign out
     And I sign in with "test18@testmailz.com" email and "test123" password
